@@ -81,10 +81,10 @@ router.delete('/:id', (req, res) => {
             }
             res.json(catData);
         })
-        .catch(err => {
-            console.log(err);
-            res.status(500).json(err);
-        });
+        // .catch(err => {
+        //     console.log(err);
+        //     res.status(500).json(err);
+        // });
 });
 
 module.exports = router;
